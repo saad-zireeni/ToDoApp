@@ -25,7 +25,7 @@ const Header = () => {
 
               <div class="hidden md:flex items-center space-x-1">
                 <Link
-                  to="/"
+                  to="/home"
                   class="py-5 px-3 text-gray-700 hover:text-violet-700"
                 >
                   Home
@@ -46,15 +46,16 @@ const Header = () => {
             </div>
 
             <div class="hidden md:flex items-center space-x-1">
-              <a href="" class="py-5 px-3">
+              <Link to="/" class="py-5 px-3">
                 Login
-              </a>
-              <a
-                href=""
+              </Link>
+              <Link
+                to="/signUp"
                 class="py-2 px-3 bg-violet-200 hover:Violet-400 text-yellow-900 hover:text-yellow-800 rounded transition duration-300"
               >
+                
                 Signup
-              </a>
+              </Link>
             </div>
 
             <div class="md:hidden flex items-center">
